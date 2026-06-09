@@ -805,7 +805,7 @@
 }
 
 .hide {
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 768px) {
     display: none;
   }
 }
@@ -889,7 +889,7 @@
 }
 
 .sports-grid {
-  margin-top: 42px;
+  margin-top: 25px;
   display: grid;
   grid-template-columns: 1fr;
   gap: 30px;
@@ -1095,7 +1095,7 @@
   font-weight: 400;
   font-size: 18px;
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 1440px) {
     font-size: 24px;
   }
 }
