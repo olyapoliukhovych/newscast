@@ -1,0 +1,56 @@
+:root {
+  --font-family: "Plus Jakarta Sans", sans-serif;
+  --second-family: "Oswald", sans-serif;
+  --third-family: "Lora", sans-serif;
+  --font3: "Poppins", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+ul,
+ol,
+p {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: 14px;
+  color: #393939;
+  background: #fff;
+  line-height: 1.5;
+}
+
+.container {
+  padding-left: 35px;
+  padding-right: 35px;
+
+  @media only screen and (min-width: 1440px) {
+    padding-left: 135px;
+    padding-right: 135px;
+  }
+}
